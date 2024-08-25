@@ -1,0 +1,12 @@
+.play-pause-icon {
+    transition: 0.2s;
+}
+
+.play-pause-icon.pause {
+  d: path("m 7,5 v14 l3,0 l0,-14 z m 7,0 v14 h3 v-14 z");
+}
+
+.play-pause-icon.stop {
+  d: path("m 5,5 v14 l14,0 l0,-14 z m 0,0 v0 h0 v0 z");
+  fill: white;
+}
